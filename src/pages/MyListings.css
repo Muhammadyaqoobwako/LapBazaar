@@ -1,0 +1,132 @@
+/* src/pages/MyListings.css */
+
+.my-listings-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.my-listings-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.error-message {
+    color: #d9534f;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.listing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-card:hover {
+    transform: translateY(-5px);
+}
+
+.listing-image {
+    width: 100%;
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Cover the area, crop if necessary */
+    border-bottom: 1px solid #eee;
+}
+
+.listing-card h3 {
+    font-size: 1.3em;
+    margin: 15px 15px 5px;
+    color: #333;
+}
+
+.listing-card p {
+    font-size: 1em;
+    margin: 0 15px 15px;
+    color: #555;
+}
+
+.listing-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px 15px;
+    border-top: 1px solid #eee;
+    margin-top: auto; /* Pushes actions to the bottom */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    flex-grow: 1; /* Allow buttons to take available space */
+    margin: 0 5px; /* Space between buttons */
+}
+
+.view-details-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.view-details-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Optional: Styling for edit button if you add it */
+/*
+.edit-btn {
+    background-color: #ffc107;
+    color: #212529;
+    border: none;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+*/
+
+/* Message when no listings are found */
+.my-listings-container p {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
+
+.my-listings-container p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.my-listings-container p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+.role-page {
+  text-align: center;
+  padding: 40px;
+  background: #f7f8fc;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.role-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.role-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.role-card i {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.role-card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.role-card.user {
+  border-top: 5px solid #3498db;
+}
+.role-card.admin {
+  border-top: 5px solid #e67e22;
+}
+.role-card.technician {
+  border-top: 5px solid #2ecc71;
+}

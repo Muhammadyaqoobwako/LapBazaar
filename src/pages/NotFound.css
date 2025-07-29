@@ -1,0 +1,89 @@
+/* src/pages/NotFound.css */
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh; /* Takes most of the viewport height */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.not-found-container h1 {
+    font-size: 6em;
+    color: #dc3545; /* Red color for error */
+    margin-bottom: 10px;
+}
+
+.not-found-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.not-found-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.home-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #0056b3;
+}/* src/pages/NotFound.css */
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh; /* Takes most of the viewport height */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.not-found-container h1 {
+    font-size: 6em;
+    color: #dc3545; /* Red color for error */
+    margin-bottom: 10px;
+}
+
+.not-found-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.not-found-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.home-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #0056b3;
+}
